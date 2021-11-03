@@ -25,6 +25,10 @@ public class Selenium2 extends Selenium1 {
 				 System.out.println("2 A");
 				 System.out.println("3 A");
 				 System.out.println("4 A");
+				 System.out.println("1 B");
+				 System.out.println("2 B");
+				 System.out.println("3 B");
+				 System.out.println("4 B");
 						
 				
 		 }
@@ -34,6 +38,14 @@ public class Selenium2 extends Selenium1 {
 	public void SecondThirdndTest() {
 		
 		System.out.println("I am still the person A");
+		
+		
+	}
+	
+	@Test
+	public void BTest() {
+		
+		System.out.println("I am BTest");
 		
 		
 	}
