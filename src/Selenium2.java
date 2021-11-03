@@ -26,6 +26,14 @@ public class Selenium2 extends Selenium1 {
 		 }
 		 
 	}
+	@Test
+	public void SecondThirdndTest() {
+		
+		System.out.println("I am still the person A");
+		
+	}
+	
+	
 	
 }
 
