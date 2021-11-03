@@ -21,6 +21,10 @@ public class Selenium2 extends Selenium1 {
 				//driver.get("https://www.google.com/");
 				 Selenium1 obj=new Selenium1();
 				 obj.openbrowser();
+				 System.out.println("1 A");
+				 System.out.println("2 A");
+				 System.out.println("3 A");
+				 System.out.println("4 A");
 						
 				
 		 }
@@ -30,6 +34,7 @@ public class Selenium2 extends Selenium1 {
 	public void SecondThirdndTest() {
 		
 		System.out.println("I am still the person A");
+		
 		
 	}
 	
