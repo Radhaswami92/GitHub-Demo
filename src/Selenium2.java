@@ -1,14 +1,14 @@
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 
 
 public class Selenium2 extends Selenium1 {
 	
-	
+	//static WebDriver driver;
 	@Test
 	public static void main() throws InterruptedException 
 	{
@@ -46,6 +46,18 @@ public class Selenium2 extends Selenium1 {
 	public void BTest() {
 		
 		System.out.println("I am BTest");
+		
+		
+	}
+	
+	@Test
+	public void callmethodoverloading() {
+		
+		
+		Selenium3 obj=new Selenium3();
+		obj.methodoverloading(obj.mainname);
+		obj.methodoverloading(obj.mainsalary);
+		
 		
 		
 	}

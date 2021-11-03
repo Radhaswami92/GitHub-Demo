@@ -6,7 +6,10 @@
       <class name="Selenium2">
         <methods>
           <include name="selenium1"/>
-          <include name="typesearchkeyword1"/>
+          <include name="SecondThirdndTest"/>
+          <include name="BTest"/>
+          <include name="callmethodoverloading"/>
+          <include name="openbrowser"/>
         </methods>
       </class> <!-- Selenium2 -->
     </classes>
