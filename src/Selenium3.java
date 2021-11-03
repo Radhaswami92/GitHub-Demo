@@ -42,5 +42,13 @@ public class Selenium3 {
 		
 		
 	}
+	
+	@Test
+	public void MergeConflictScenario() {
+		
+		System.out.println("Merge Conflict with the New branch Developer 2");
+		
+		
+	}
 
 }
