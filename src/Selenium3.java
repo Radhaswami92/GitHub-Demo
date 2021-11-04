@@ -50,5 +50,13 @@ public class Selenium3 {
 		
 		
 	}
+	
+	@Test
+	public void mergemaster() {
+		
+		System.out.println("This is done in master branch");
+		
+		
+	}
 
 }
